@@ -1,1 +1,1 @@
-from calculadora import Soma, Subtracao, Multiplicacao, Divisao, Raiz, Potenciacao, Logaritimo
+from .operacoes import Soma, Subtracao, Multiplicacao, Divisao, Raiz, Potenciacao, Logaritimo
