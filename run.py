@@ -104,8 +104,7 @@ def calculadora(escolhendo_operacao):
 if __name__=='__main__':
     command = 'sim'
     while command == 'sim':
-        menu()
-        escolhendo_operacao = int(input('Digite um número de acordo com a operação desejada: '))
+        escolhendo_operacao = menu()
         calculadora(escolhendo_operacao)
         command = input('Deseja continuar usando a calculadora?\n(sim/não):').lower()
 
